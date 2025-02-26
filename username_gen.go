@@ -75,7 +75,7 @@ func (u usernameGen) CalcTotalPossibleValues() int {
 }
 
 func (u usernameGen) GenerateRand() string {
-	return u.Generate(rand.Int64())
+	return u.Generate(int64(rand.Int32()))
 }
 
 func (u usernameGen) Generate(randNum int64) string {

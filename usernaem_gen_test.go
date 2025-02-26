@@ -130,10 +130,10 @@ func TestGenerateFn(t *testing.T) {
 
 func TestGenerateWithUseProvidedNumberAfterOverflow(t *testing.T) {
 	nameGen := NewUsernameGenWithOptions("-", UseProvidedNumberAfterOverflow, Adjectives, Colors, Animals)
-	
+
 	randNumber := int64(nameGen.CalcTotalPossibleValues()) + 500
 	expected := strconv.FormatInt(randNumber, 10)
-	
+
 	ResultStr := nameGen.Generate(randNumber)
 	arr := strings.Split(ResultStr, "-")
 	acual := arr[len(arr)-1]
@@ -141,5 +141,4 @@ func TestGenerateWithUseProvidedNumberAfterOverflow(t *testing.T) {
 	if expected != acual {
 		t.Fatalf("The values must be equal, Expected: %s AND Acual: %s", expected, acual)
 	}
-
 }
