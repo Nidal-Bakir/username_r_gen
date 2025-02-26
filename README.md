@@ -23,6 +23,9 @@ nameGenerator := usernaemgen.NewUsernameGen()
 uniqueName := nameGenerator.Generate(1)
 fmt.Println(uniqueName) // cute-blue-fox
 ```
+> [!Tip]
+> The algorithm is optimized for serialized number usage. So, if you have the user's ID, you should use it rather than an arbitrary number.
+> For example, you can use the auto-generated ID from your database (`id AUTOINCREMENT/SERIAL PRIMARY KEY`)
 
 ### Or use the GenerateRand() fn
 
