@@ -23,6 +23,7 @@ nameGenerator := usernaemgen.NewUsernameGen()
 uniqueName := nameGenerator.Generate(1)
 fmt.Println(uniqueName) // cute-blue-fox
 ```
+
 > [!Tip]
 > The algorithm is optimized for serialized number usage. So, if you have the user's ID, you should use it rather than an arbitrary number.
 > For example, you can use the auto-generated ID from your database (`id AUTOINCREMENT/SERIAL PRIMARY KEY`)
@@ -46,4 +47,18 @@ nameGenerator := usernaemgen.NewUsernameGenWithOptions(
 )
 uniqueName := nameGenerator.GenerateRand()
 fmt.Println(uniqueName) // great__canary
+```
+
+### You can chage the order of the dictionaries
+
+```go
+nameGenerator := usernaemgen.NewUsernameGenWithOptions(
+	"-",
+	usernaemgen.NoPostfix,
+	usernaemgen.Animals, // <-- will start from animals rather then adjectives liken in the previous examples
+	usernaemgen.Colors, // <-- then colors
+	usernaemgen.Adjectives, // <-- and finish with the adjectives
+)
+uniqueName := nameGenerator.GenerateRand()
+fmt.Println(uniqueName) // cat-blue-angry
 ```
