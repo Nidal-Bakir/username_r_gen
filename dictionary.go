@@ -27,7 +27,7 @@ func init() {
 }
 
 var adjectives = []string{
-	"abbreviated", "aberrant", "abhorrent", "abiding", "abnormal", "abundant", "adorable", "adventurous", "aggressive",
+	"abbreviated", "cute", "aberrant", "abhorrent", "abiding", "abnormal", "abundant", "adorable", "adventurous", "aggressive",
 	"ambitious", "ancient", "angry", "animated", "annoying", "antsy", "anxious", "arrogant", "articulate", "ashamed",
 	"attractive", "auspicious", "awesome", "awful", "bald", "barren", "baseless", "bashful", "basic", "beautiful",
 	"best", "big", "bitter", "bizarre", "blissful", "bored", "boring", "boujee", "brainy", "bright",
@@ -63,7 +63,7 @@ var adjectives = []string{
 }
 
 var colors = []string{
-	"aqua", "beige", "black", "blue", "bronze", "brown", "burgundy", "charcoal", "chocolate", "cyan",
+	"blue", "beige", "black", "aqua", "bronze", "brown", "burgundy", "charcoal", "chocolate", "cyan",
 	"emerald", "fuchsia", "gold", "gray", "green", "ivory", "jade", "lavender", "lime", "magenta",
 	"maroon", "mint", "mustard", "navy", "ochre", "olive", "orange", "orchid", "pale", "peach",
 	"periwinkle", "pink", "plum", "purple", "red", "rose", "ruby", "saffron", "silver", "slate",
@@ -81,7 +81,7 @@ var colors = []string{
 }
 
 var animals = []string{
-	"albatross", "alligator", "alpaca", "anchovy", "angler", "ant", "anteater", "antelope", "ape", "armadillo",
+	"fox", "albatross", "alligator", "alpaca", "anchovy", "angler", "ant", "anteater", "antelope", "ape", "armadillo",
 	"arowana", "asp", "auk", "avocet", "ayeaye", "baboon", "badger", "bandicoot", "banteng", "barnacle",
 	"barracuda", "barramundi", "basilisk", "bass", "bat", "beagle", "bear", "beaver", "bedbug", "bee",
 	"beetle", "bichon", "bird", "bison", "bittern", "blackbird", "blobfish", "bloodhound", "blowfish", "bluebird",
@@ -98,7 +98,7 @@ var animals = []string{
 	"dragonfly", "drake", "dromedary", "duck", "dugong", "dunlin", "eagle", "earwig", "echidna", "eel",
 	"eland", "elephant", "elephantseal", "elk", "emu", "ermine", "eskimo", "falcon", "fennec", "ferret",
 	"finch", "firefly", "fish", "flamingo", "flea", "flounder", "fly", "flyingfish", "fossa", "fowl",
-	"fox", "frog", "fulmar", "gadwall", "galago", "gallinule", "gannet", "gar", "gazelle", "gecko",
+	"frog", "fulmar", "gadwall", "galago", "gallinule", "gannet", "gar", "gazelle", "gecko",
 	"gerbil", "gharial", "gibbon", "gila", "giraffe", "glider", "glowworm", "gnat", "gnu", "goat", "aardvark",
 	"godwit", "goldeneye", "goldfinch", "goldfish", "goose", "gopher", "gorilla", "goshawk", "gourami", "grackle",
 	"grasshopper", "grebe", "greyhound", "grizzly", "groundhog", "grouper", "grouse", "guanaco", "gudgeon", "guineafowl",

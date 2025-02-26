@@ -21,7 +21,7 @@
 ```go
 nameGenerator := usernaemgen.NewUsernameGen()
 uniqueName := nameGenerator.Generate(1)
-fmt.Println(uniqueName) // aberrant-aqua-albatross
+fmt.Println(uniqueName) // cute-blue-fox
 ```
 
 ### Or use the GenerateRand() fn
