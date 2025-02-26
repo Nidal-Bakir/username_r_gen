@@ -49,7 +49,7 @@ uniqueName := nameGenerator.GenerateRand()
 fmt.Println(uniqueName) // great__canary
 ```
 
-### You can chage the order of the dictionaries
+### You can change the order of the dictionaries
 
 ```go
 nameGenerator := usernaemgen.NewUsernameGenWithOptions(
