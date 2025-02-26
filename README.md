@@ -4,7 +4,7 @@
 
 ## A pseudo random username generator.
 
-|    Name    |                             Unique Count                             |
+| Dictionary |                             Unique Count                             |
 | :--------: | :------------------------------------------------------------------: |
 | Adjectives |                                 325                                  |
 |   Colors   |                                 148                                  |
